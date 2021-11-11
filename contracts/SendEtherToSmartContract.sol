@@ -8,7 +8,7 @@ contract SendEtherToSmartContract {
         functionCalled = "sendEther";
     }
 
-    // fallback() external payable {
+    // function fallback() external payable {
     //     functionCalled = "fallback";
     // }
 
