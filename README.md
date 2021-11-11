@@ -5,3 +5,6 @@
 3. generate address in local for ethereum: 
  3.1. npm i -g eth-cli 
  3.2. eth address:random
+
+
+4.Ropsten Ethereum Faucet
