@@ -12,6 +12,7 @@ const init = async () => {
         deployedNetwork.address
     );
 
+    //1.
     // //get ganach addresses
     // const addresses = await web3.eth.getAccounts();
 
@@ -23,7 +24,7 @@ const init = async () => {
     //     //gasPrice: 100
     // });
 
-
+    //2.
     // contract.methods.setData(10).send({
     //     from: addresses[0],
     //     //gas: 100
@@ -36,17 +37,28 @@ const init = async () => {
     //         //catch the error
     //     });
 
+    //3.
+    // contract.methods.setData(10).send({
+    //     from: addresses[0],
+    //     //gas: 100
+    //     //gasPrice: 100
+    // })
+    //     .on('receipt', receipt => {
+
+    //     })
+    //     .on('confirmation', (confirmationNumber, receipt) => {
+
+    //     })
+    //     .on('error', (error, receipt) => {
+
+    //     });
+
+    //4.
     contract.methods.setData(10).send({
         from: addresses[0],
         //gas: 100
         //gasPrice: 100
-    })
-        .on('receipt', receipt => {
-
-        })
-        .on('confirmation', (confirmationNumber, receipt) => {
-
-        });
+    }, function (receipt) { });
 
     const result = await contract.methods.getData().call();
     console.log(result);
