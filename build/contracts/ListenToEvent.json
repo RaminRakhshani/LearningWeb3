@@ -235,7 +235,7 @@
                           "name": "block",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 79,
+                          "referencedDeclaration": 102,
                           "src": "311:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_block",
@@ -717,7 +717,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 79,
+                                  "referencedDeclaration": 102,
                                   "type": "block",
                                   "value": "block"
                                 },
@@ -820,12 +820,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x25A37591A94479ea0DA45D5A0B5b4901e4068CC9",
-      "transactionHash": "0x53f5c820666e41883cc8fd6dd85e66f261dfe0240e04932b43f2090a97521943"
+      "address": "0x18F90E67CEbBf906c84250300a736c3Eaa02993A",
+      "transactionHash": "0xa11d2a56bd8b6d88a2cea8e278f95243e18ca3e1f0f63a848911ba3cd1a259ed"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-11T10:44:27.021Z",
+  "updatedAt": "2021-11-11T11:31:48.582Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
