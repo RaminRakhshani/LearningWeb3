@@ -28,7 +28,7 @@ const init = async () => {
     const result = await contract.methods.functionCalled().call();
     console.log(result);
 
-
+    //send ether directly to smart contract
     await web3.eth.sendTransaction({
         from: addresses[0],
         to: contract.options.address,
@@ -37,6 +37,14 @@ const init = async () => {
 
     const result = await contract.methods.functionCalled().call();
     console.log(result);
+
+
+    //send ehter to another address
+    await web3.eth.sendTransaction({
+        from: addresses[0],
+        to: addresses[1],
+        value: '10000'
+    });
 }
 
 init();
